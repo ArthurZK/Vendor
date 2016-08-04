@@ -16,6 +16,9 @@ Git
 \b \cf4 is
 \b0 \cf2  free software.\
 my  name is gaara.\
-\pard\pardeftab720\partightenfactor0
 
-\f1 \cf2 \cb3 My stupid boss still prefers SVN}
+\f1 My stupid boss still prefers SVN\
+
+\f0 \'ce\'d2\'b0\'ae\'c4\'e3
+\f1  
+\f0 \'cb\'ce\'c3\'ce\'b8\'eb}
