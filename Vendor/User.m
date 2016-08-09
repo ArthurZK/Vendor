@@ -100,7 +100,14 @@
     NSString* headerImg =  [userDefaults objectForKey:@"headImg"];
     return headerImg;
 }
-
+/**
+ *  按照格式转码时间
+ *
+ *  @param format  @"yyyy-MM-dd HH:mm:ss",@"yyyy-MM-dd HH:mm",@"yyyy-MM-dd EEE",@"yyyy-MM-dd",@"MM-dd"
+ *  @param timeNum NSNumebr
+ *
+ *  @return NSString
+ */
 +(NSString *)timeNumberChangeToStringWithFormat:(NSString *)format Number:(NSNumber *)timeNum
 {
     NSTimeInterval time=[timeNum doubleValue]+TIMEZONE;
